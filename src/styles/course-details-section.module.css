@@ -1,0 +1,56 @@
+.courseDetails {
+  background-color: #9a1750;
+  padding: 4rem 0;
+  color: #fffcf5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.highlights {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.highlight {
+  font-size: 1.25rem;
+  background-color: #fffcf5;
+  color: #9a1750;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.durationSchedule {
+  text-align: center;
+}
+
+.durationSchedule h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .highlights {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .highlights {
+    align-items: center; /* To vertically center the li boxes */
+  }
+}

@@ -1,0 +1,37 @@
+.about {
+  padding: 4rem 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title,
+.trainerTitle {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.description {
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
+}
+
+.trainerProfile {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+
+.trainerImage {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.trainerName {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}

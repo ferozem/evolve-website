@@ -1,0 +1,83 @@
+.pricing {
+  padding: 4rem 0;
+  background-color: #9a1750;
+  color: #fffcf5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.coursePrice {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.price {
+  margin-bottom: 0.5rem;
+}
+
+.amount {
+  font-weight: bold;
+}
+
+.offer {
+  font-style: italic;
+}
+
+.enrollment {
+  text-align: center;
+}
+
+.seats {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.cta {
+  font-size: 1.25rem;
+  background-color: #fffcf5;
+  color: #9a1750;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+  background-color: #fff7e3;
+}
+.largeText {
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) {
+  .cta {
+    width: 100%;
+  }
+  .enrollment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,59 @@
+.section {
+  padding: 4rem 0;
+  text-align: center;
+  background-color: #9a1750;
+  color: #fffcf5;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 30% 70%;
+  gap: 2rem;
+  align-items: center;
+  padding: 0 1rem;
+}
+
+.left-column {
+  text-align: right; /* Add this class for the left column to be right-aligned */
+}
+
+.right-column {
+  text-align: left; /* Add this class for the right column to be left-aligned */
+}
+
+.title {
+  font-size: 1.5rem;
+  /* margin-bottom: 1rem; */
+}
+
+.icon {
+  font-size: 2rem;
+  /* margin-bottom: 1rem; */
+}
+
+.heading {
+  font-size: 2.5rem;
+  /* margin-bottom: 2rem; */
+}
+
+/* Responsive code added */
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .left-column,
+  .right-column {
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  .container {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
