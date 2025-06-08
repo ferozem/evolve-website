@@ -24,10 +24,12 @@
   color: #fff;
   text-decoration: none;
   margin-left: 1rem;
+  transition: font-size 0.2s ease;
 }
 
 .footerNav a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  font-size: 1.1em;
 }
 
 @media (max-width: 768px) {
