@@ -1,8 +1,8 @@
 import * as React from "react"
 import * as communicationStyles from "../styles/power-of-communiation.module.css"
 import iconImage1 from "../images/fence1.png"
-import iconImage2 from "../images/comment-smile2.png"
-// import iconImage3 from "../images/users1.png"
+// import iconImage2 from "../images/comment-smile2.png"
+import iconImage2 from "../images/comment-smile.png"
 import iconImage3 from "../images/people-arrows-left-right.png"
 
 const PowerOfCommunicationSection = () => {

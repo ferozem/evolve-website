@@ -1,6 +1,6 @@
 import * as React from "react"
 import * as heroStyles from "../styles/hero-section.module.css"
-import heroImage from "../images/hero.png"
+import heroImage from "../images/hero-image.png"
 
 const HeroSection = () => {
   return (
