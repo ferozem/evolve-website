@@ -8,6 +8,7 @@
  * @type {import('gatsby').GatsbyConfig}
  */
 module.exports = {
+  pathPrefix: "/evolve-website",
   siteMetadata: {
     title: `Spoken English Master Course`,
     description: `Spoken English Master Course by Ayesha Ameer`,
