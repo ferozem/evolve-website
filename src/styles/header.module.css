@@ -47,10 +47,12 @@
 .menu a {
   color: #fffcf5;
   text-decoration: none;
+  transition: color 0.3s ease;
 }
 
 .menu a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #fff0cc;
 }
 .hamburgerMenu {
   display: none;
